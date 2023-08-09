@@ -127,6 +127,11 @@
   resolved "https://registry.npmmirror.com/@micro-zoe/micro-app/-/micro-app-0.8.11.tgz#bef4b736a5e84c8579643b50bacb591df11b2819"
   integrity sha512-4NapVlAomUagOcpHQlcPgTHlVZgeb/OSSuS6lQWV9uOEhsKqbE6j3KBWb3RPN2olfvrbFXGaUKyA0pup92ja9g==
 
+"@types/node@^20.4.9":
+  version "20.4.9"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-20.4.9.tgz#c7164e0f8d3f12dfae336af0b1f7fdec8c6b204f"
+  integrity sha512-8e2HYcg7ohnTUbHk8focoklEQYvemQmu9M/f43DZVx43kHn0tE3BY/6gSDxS7k0SprtS0NHvj+L80cGLnoOUcQ==
+
 "@vitejs/plugin-vue@^4.2.3":
   version "4.2.3"
   resolved "https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-4.2.3.tgz#ee0b6dfcc62fe65364e6395bf38fa2ba10bb44b6"
