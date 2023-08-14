@@ -7,7 +7,7 @@
      -->
   <micro-app
     name="myPage"
-    url="http://127.0.0.1:5174/"
-    baseroute="/my-page"
+    url="http://127.0.0.1:5173/"
+    baseroute="my-page"
   ></micro-app>
 </template>
