@@ -2,14 +2,21 @@ import {createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/',
+    path: '/*',
     name: 'home',
-    component: () => import('../App.vue')
-  },
-  {
-    path: '/my-page/:page*',
-    name: 'my-page',
-    component: ()=>import('../views/MyPage.vue')
+    component: () => import('../App.vue'),
+    children: [
+      {
+        path: '/',
+        name: 'home',
+        component: ()=>import('../views/Home.vue')
+      },
+      {
+        path: '/my-page/:page*',
+        name: 'my-page',
+        component: ()=>import('../views/MyPage.vue')
+      }
+    ]
   }
 ]
 
